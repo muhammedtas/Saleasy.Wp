@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*Google Font Çağırma*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/*Genel*/
+
+body {font-family: 'Open Sans', sans-serif;font-size:15px;font-weight: 400;background-color:#ffffff;color:#141414;}
+.clearfix {width: 100%;display: block;flex: left;clear: both;}
+.kirmizi {color:#ba2c2c;}
+ul,ol {margin:0px;padding:0px;}
+button:focus,a:focus,a:active {outline:none!important;}
+a {transition: all .2s ease;    -webkit-transition: all .2s ease;    -o-transition: all .2s ease;color:#141414;}
+a:hover {color:#ba2c2c;}
+.beyaz-kutu {border: 1px solid #e5e5e5;    padding: 15px;   }
+
+/*Butonlar*/
+
+.kirmizi-buton {background-color:#ba2c2c;   line-height: 40px;    padding-left: 15px;    padding-right: 15px;    color: #ffffff;display: inline-block;border:none;cursor:pointer;}
+.kirmizi-buton:hover {color:#ffffff;text-decoration: none;}
+
+/*Üst Bar*/
+
+.ust-bar {background-color:#141414;color:#ffffff;line-height: 50px;height: 50px;}
+.ust-bar a {color:#ffffff;}
+.ust-bar-sol {text-align: left;}
+.ust-bar-sag {text-align: right;}
+
+.ust-bar-menu {padding:0px;margin:0px;}
+.ust-bar-menu li {display:inline-block;list-style: none;}
+.ust-bar-menu li a {padding-left:10px;padding-right: 10px;}
+
+
+/*Üst Orta Bölüm*/
+.ust-orta-bolum {padding-top:20px;padding-bottom:20px;}
+.arama-alani {display: flex;}
+.header-arama {align-self: center;    display: inline-table;}
+.arama-input, .urun_kategorisi {border:solid 1px #ebebeb; height:40px;padding-left: 10px; outline:none; padding-right:10px; }
+.arama-input {width:250px;margin-left: -5px;    top: -1px;    position: relative;}
+.arama-input:focus,.urun_kategorisi:focus {border:1px solid #cccccc;}
+.urun_kategorisi {margin-right: 4px;  width: 200px;    top: -1px;    position: relative;}
+.arama-buton {border:none; line-height:20px; height:39px; color:#000000; padding-left:20px; border-radius:0px; padding-right:20px;position: absolute;background-color:#ba2c2c;}
+.arama-buton:focus {border:none;outline: none;}
+.arama-buton i {color:#ffffff;}
+
+.sepet-alani {text-align: left;background-image: url("img/sepet-icon.png");background-repeat: no-repeat;background-position: right center;font-size:14px;}
+.sepet-baslik {display: block;font-weight: bold;}
+.sepet-urun {display: block;}
+.sepet-fiyat {font-weight: bold;color:#ba2c2c;}
+
+/*Ana Menü*/
+.menu-alani {background-color:#141414;line-height: 50px;height: 50px;border-bottom: 3px solid #ba2c2c;}
+.drawer-hamburger {display:none;}
+.ana-menu {padding:0px;margin:0px;display:block;}
+.ana-menu li {display:inline-block;list-style: none;}
+.ana-menu li a {padding-left:10px;padding-right:10px;color:#ffffff;text-transform: uppercase;line-height: 50px; display:inline-block;}
+.ana-menu li a:hover {text-decoration: none;}
+.ana-menu li:hover {background-color:#ba2c2c;}
+.ana-menu li.aktif {background-color:#ba2c2c;}
+.alt-menu {display:none;float: left;    position: relative;}
+
+.mobil-menu li.ust-oge a::after {
+    content: "\f104";
+    width: 23px;
+    font-size:18px;
+	margin-right:10px;
+    float: right;
+ font-family: "Font Awesome 5 Free";
+    text-align: center;
+	  font-weight: 900;
+	  display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.mobil-menu .alt-menu li a::after {display:none;}
+
+
+.ana-menu li.ust-oge:hover .alt-menu {    position: absolute;   background-color:#ba2c2c;    width: 200px;    z-index: 99;    display: block;padding-left: 0px; }
+.alt-menu li {display:block;}
+.alt-menu li:hover {background-color:#141414;}
+.alt-menu li a {text-transform: none;}
+
+/*Slider Bölümü*/
+
+.slider-arkasi {background-color:#e2e2e2; }
+.slider-alani {height: 385px;padding-left:0px!important;padding-right:0px!important;}
+
+.slide-baslik {font-size:45px;color:#ffffff;font-weight: bold;width: 50%;padding-left:5%;padding-top:5%;line-height: 45px;display: inline-block;}
+.slider-alani .kirmizi-buton {margin-left:5%;margin-top:20px;}
+
+.swiper-container {      width: 100%;      height: 100%;    }
+
+.swiper-pagination-bullet-active {background:#ba2c2c;}
+.swiper-button-next,
+.swiper-button-prev, 
+.swiper-container-rtl .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next{
+    fill: #ba2c2c;	border:#ba2c2c;
+}
+.swiper-slide {background-size:cover;}
+/*Ana Sayfa Ürünler*/
+
+.anasayfa-urunler {margin-top:20px;}
+.anasayfa-urunler-tab {text-align: right;display: block;}
+.anasayfa-urunler-tab .nav-item {display: inline-block;}
+.tab-baslik {float:left;font-size:20px;font-weight: bold;letter-spacing: -1px;}
+.tab-content {padding-top:20px;}
+.anasayfa-urunler-tab .nav-item a {color:#000000;}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {color:#ba2c2c;font-weight: bold;}
+.anasayfa-urunler-alt-logo {margin-left:auto;margin-right:auto;display:block;margin-bottom:30px;}
+
+.urun-kutu {border:1px solid #e5e5e5;padding:15px;text-align:center;margin-bottom:30px;}
+.urun-kutu-baslik {margin-top:15px;margin-bottom:15px;display:block;font-size: 17px;}
+.urun-kutu-baslik a {color:#141414;}
+.urun-kutu-fiyat {font-weight: bold;font-size:18px;line-height: 40px;}
+.urun-kutu-fiyat del {line-height: 20px;color:#bbbbbb;font-size:14px;margin-right: 10px;}
+.urun-kutu img {width:100%;height:auto;}	
+/*Footer Bölümü*/
+
+.footer-alani {background-color:#141414;color:#ffffff;padding-top:30px;padding-bottom:30px;border-top:3px solid #ba2c2c;margin-top:30px;}
+.footer-alani a ,.footer-alani-2 a{color:#ffffff;}
+.footer-alani h3 {font-weight: 700;text-align: right;font-size:22px;}
+.footer-menu {margin:0px;padding:0px;}
+.footer-menu li {list-style:none;text-align: right;}
+.footer-alani i {margin-right:10px;}
+.footer-adres,.footer-telefon,.footer-eposta {margin-top:20px;display:block;}
+.footer-logo {margin-bottom:20px;}
+.sayfa-basina-git {    height: 50px; width: 50px; position: fixed; bottom: 20px; right: 15px; display: block; z-index: 99; box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); overflow: hidden; white-space: nowrap; color:#ffffff; text-align: center; line-height: 50px; background-color: #ba2c2c;
+font-size:25px;}
+.sayfa-basina-git:hover {color:#ffffff;} 
+
+.footer-alani-2 {margin-top:20px;background-color:#141414;color:#ffffff;line-height: 50px;margin-bottom:20px;border-top:3px solid #ba2c2c;}
+.footer-alani-2-sag {text-align:right;}
+
+
+/*Kategori Sayfası*/
+
+.kategori-sayfasi {margin-top:20px;}
+.kategori-sayfasi .tab-baslik {margin-bottom:20px;}
+.kategori-sayfasi-sol h3 {margin-bottom:20px;}
+.kategori-sayfasi-kategori {border:solid 1px #ebebeb; height:40px;padding-left: 10px; outline:none; padding-right:10px;width: 100%; }
+.kategori-aciklama {font-size:13px;margin-bottom:20px;}
+.kategori-ust-markalar ul li {display:inline-block; text-align: center;      margin-right: 11px;  }
+.kategori-ust-markalar ul li a { padding: 10px;border: 1px solid #e0e0e0;      display:block;}
+.kategori-ust-markalar ul li a:hover {border:1px solid #ba2c2c;}
+.kategori-ust-reklam a {display:block;margin-top:15px;margin-bottom:15px;}
+.kategori-ust-reklam a img {width:100%;height:auto;}
+.kategori-ust-beyaz-kutu {margin-bottom:15px;border: 1px solid #e5e5e5;    padding: 15px;  }
+.kategori-ust-sonuc,.kategori-ust-siralama {display:inline-block;margin-bottom:0px;}
+.kategori-ust-siralama {float:right;}
+.kategori-sayfasi-sol .beyaz-kutu {margin-bottom:20px;}
+
+/*Ürün Detay Sayfası*/
+
+.breadcrumb {    background-color: transparent;    border-radius: 0;    margin-top: 20px;margin-bottom:20px;}
+.breadcrumb a {font-weight: bold;color:#ba2c2c;}
+.urun-detay-kutu {margin-bottom:20px;}
+.urun-detay-foto img {width:100%;height:auto;border:1px solid #e5e5e5;}
+
+.urun-detay-bilgi h1 {font-size:28px;}
+.urun-detay-fiyat {font-size:36px;font-weight: bold;color:#ba2c2c;margin-bottom:20px;}
+
+
+.urun-detay-sepete-ekle {margin-top:20px;margin-bottom:20px;}
+.miktar {float:left;margin-right:20px;}
+.miktar input {border: solid 1px #ebebeb;    height: 42px;    padding-left: 10px;    outline: none;    padding-right: 10px;text-align: center;}
+
+.urun-detay-ozellikler .tab-content {padding-top:0px;width: 100%;}
+.urun-detay-ozellikler .nav-tabs {border-bottom:none;}
+#urun_detay_icerik .tab-pane {padding:15px;border:1px solid #e5e5e5;}
+
+
+#ozellik table th {width: 30%;}
+
+#yorumlar .row {margin-bottom:20px;}
+
+.urun-detay-benzer-urunler {margin-top:20px;}

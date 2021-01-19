@@ -1,0 +1,513 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Klaus - E-Ticaret Teması Ürün Detay Sayfası</title>
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="inc/fontawesome/css/all.css">
+<link rel="stylesheet" href="inc/slider/css/swiper.min.css">
+<link rel="stylesheet" href="inc/drawer-master/dist/css/drawer.css">
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all" />
+<script src="inc/jquery/jquery-3.3.1.min.js"></script>
+
+
+</head>
+	
+
+<body class="drawer drawer--left">
+	
+	
+<header role="banner" class="sadece-mobil">
+
+<nav class="drawer-nav" role="navigation">
+
+<ul class="mobil-menu">
+			<li class="aktif"><a href="kategori.html">BİLGİSAYAR &amp; TABLET</a></li>
+			<li><a href="kategori.html">CEP TELEFONU</a></li>
+			<li class="ust-oge"><a href="#">TELEVİZYON</a>
+				
+				<ul class="alt-menu">
+				<li><a href="kategori.html">LED Televizyon</a></li>
+				<li><a href="kategori.html">LCD Televizyon</a></li>	
+				<li><a href="kategori.html">Plazma Televizyon</a></li>
+				</ul>
+			
+			</li>
+			<li><a href="kategori.html">SAAT</a></li>
+			<li><a href="kategori.html">KAMERA &amp; FOTOĞRAF MAKİNESİ</a></li>
+			<li><a href="kategori.html">BEYAZ EŞYA</a></li>
+			<li><a href="kategori.html">GİYİM</a></li>
+			<li><a href="kategori.html">BEBEK</a></li>
+			<li><a href="kategori.html">ANTİKA</a></li>
+</ul>		
+
+</nav>
+</header>
+	
+	
+<div class="container ust-bar" id="sayfabasi">
+
+	<div class="row">
+	
+		<div class="col-md-6 ust-bar-sol">
+		150 TL ve üzeri alışverişlerinizde KARGO BEDAVA !
+		</div>
+		<div class="col-md-6 ust-bar-sag">
+		
+			<ul class="ust-bar-menu">
+			<li><a href="#">Ali Çınaroğlu</a></li>
+			<li><a href="#">SSS</a></li>
+			<li><a href="#">İletişim</a></li>
+			<li><a href="#">Çıkış</a></li>
+			</ul>
+			
+		</div>
+	</div>
+	
+</div>
+	
+<div class="container ust-orta-bolum">
+	
+<div class="row">
+
+	<div class="col-md-3 col-lg-3 logo-alani">
+	<a href="index.html"><img src="img/klaus-logo.png" alt="" class="site-logosu" /></a>
+	</div>
+	
+	<div class="col-md-6 col-lg-7 arama-alani">
+	<form name="header-arama" method="GET" class="header-arama" action="#">
+    <select name="urun_kategorisi" id="urun_kategorisi" class="urun_kategorisi hidden-xs">
+	<option value="bilgisayar">Bilgisayar &amp; Tablet</option>
+	<option value="ceptelefonu">Cep Telefonu</option>
+	<option value="televizyon">Televizyon</option>
+	<option value="saat">Saat</option>	
+	<option value="kamera">Kamera &amp; Fotoğraf Makinesi</option>
+	</select>
+	<input type="text" name="s" class="arama-input" required="" maxlength="128" value="" placeholder="Ürün Ara | Ör. iPhone XS Max...">
+	<button type="submit" title="Ara" class="arama-buton"><span><i class="fas fa-search"></i></span></button>
+	</form>
+	</div>
+	
+	<div class="col-md-3 col-lg-2 sepet-alani">
+	<span class="sepet-baslik">SEPETİNİZDE</span>
+	<span class="sepet-urun"><span class="sepet-urun-sayi">2</span> Ürün Var</span>
+	<span class="sepet-fiyat">153.34 TL</span>
+	</div>
+	
+</div>
+	
+</div>	
+	
+	
+<div class="container menu-alani">
+<button type="button" class="drawer-toggle drawer-hamburger">
+<span class="sr-only">Menü</span>  
+<span class="drawer-hamburger-icon">   
+<span style="display: block;    margin-left: 20px;    line-height: 0px;    width: 87px;"></span>
+</span>
+</button>
+		<ul class="ana-menu">
+			<li class="aktif"><a href="kategori.html">BİLGİSAYAR &amp; TABLET</a></li>
+			<li><a href="kategori.html">CEP TELEFONU</a></li>
+			<li class="ust-oge"><a href="#">TELEVİZYON</a>
+				
+				<ul class="alt-menu">
+				<li><a href="kategori.html">LED Televizyon</a></li>
+				<li><a href="kategori.html">LCD Televizyon</a></li>	
+				<li><a href="kategori.html">Plazma Televizyon</a></li>
+				</ul>
+			
+			</li>
+			<li><a href="kategori.html">SAAT</a></li>
+			<li><a href="kategori.html">KAMERA &amp; FOTOĞRAF MAKİNESİ</a></li>
+			<li><a href="kategori.html">BEYAZ EŞYA</a></li>
+			<li><a href="kategori.html">GİYİM</a></li>
+			<li><a href="kategori.html">BEBEK</a></li>
+			<li><a href="kategori.html">ANTİKA</a></li>
+		</ul>
+</div>
+	
+<div class="container urun-detay-sayfasi">
+
+	<div class="row">
+		
+		<div class="container breadcrumb beyaz-kutu">
+		
+			<a href="index.html">Ana Sayfa</a>&nbsp;/&nbsp;<a href="kategori.html">Kategori </a>&nbsp;/&nbsp;BEATS BT.MUH42EE.A SOLO3 WİRELESS KULAKÜSTÜ KULAKLIK- İPEKSİ ALTIN
+			
+			
+		</div>
+		
+		
+		<div class="container beyaz-kutu urun-detay-kutu">
+		
+			<div class="row">
+			
+				<div class="col-md-5 urun-detay-foto">
+				
+			    <img src="img/urunler/urun-3.jpg" alt=""/>
+				
+				
+				</div>
+			  <div class="col-md-7 urun-detay-bilgi">
+				
+				<h1>BEATS BT.MUH42EE.A SOLO3 WİRELESS KULAKÜSTÜ KULAKLIK- İPEKSİ ALTIN</h1>
+			    <div class="urun-detay-fiyat">1.998,99 TL</div>
+				  
+				  <img src="img/kargo-bedava.png" width="104" height="29" alt=""/>
+				<img src="img/stokta-var.png" width="104" height="29" alt=""/> 
+				  
+				<form class="urun-detay-sepete-ekle" action="#" method="post" enctype="multipart/form-data">
+				<div class="miktar">
+				<input type="number" id="quantity_5c23626762968" class="input-text qty text" step="1" min="1" max="20" name="quantity" value="1" title="Miktar" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="">
+				</div>
+				<button type="submit" name="add-to-cart" value="17263" class="kirmizi-buton">Sepete Ekle</button>
+				</form>  
+				  
+				<p>2 iş günü icerisinde kargoya verilir.</p>
+			   
+				
+				
+				</div>
+			</div>
+		
+		
+		</div>
+		
+		
+		<div class="container urun-detay-ozellikler">
+		
+			<div class="row">
+			
+				<ul class="nav nav-tabs urun-detay-ozellik-tab" role="tablist">
+				  <li class="nav-item">
+					<a class="nav-link active" id="bilgi-tab" data-toggle="tab" href="#bilgi" role="tab" aria-controls="bilgi" aria-selected="true">Genel Bakış</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" id="ozellik-tab" data-toggle="tab" href="#ozellik" role="tab" aria-controls="ozellik" aria-selected="false">Ürün Özellikleri</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" id="yorumlar-tab" data-toggle="tab" href="#yorumlar" role="tab" aria-controls="yorumlar" aria-selected="false">Yorumlar (2)</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" id="odeme-tab" data-toggle="tab" href="#odeme" role="tab" aria-controls="odeme" aria-selected="false">Ödeme Seçenekleri</a>
+				  </li>
+				  
+				</ul>
+				
+			  <div class="tab-content" id="urun_detay_icerik">
+				  <div class="tab-pane fade show active" id="bilgi" role="tabpanel" aria-labelledby="bilgi-tab">
+					
+				<img src="img/urunler/urun-5.jpg" class="float-left" alt=""/>
+<h3>BEATS SOLO3 WİRELESS</h3>
+
+
+<h3>KULAK ÜSTÜ KULAKLIK</h3>
+
+
+<p>Kablosuz dinleme deneyimi için aygıtınıza Class 1 Bluetooth ile bağlanın</p>
+
+
+
+<p>Beats’in çok sevdiğiniz ödüllü ses kalitesi ve tasarımı</p>
+
+
+
+<p>40 saate kadar pil ömrüyle birden çok gün kullanma imkanı</p>
+
+
+
+<p>Fast Fuel özelliği ile pil düzeyi düşük olduğunda 5 dakika şarjla 3 saat kullanım</p>
+
+
+
+<p>Gündelik kullanım için rahatlık sağlayan ayarlanabilir yumuşak yastıklı kulaklıklar</p>
+
+
+
+<p>Sağlam ve katlanabilir özellikteki şık ve dinamik tasarımıyla her zaman yanınızda</p>
+
+
+
+<p>Çok işlevli kulak üzeri kontrollerle, gelen aramaları yanıtlayın, müziğinizi kontrol edin ve Siri’yi etkinleştirin.</p>
+
+<h3>ÖZELLİKLER</h3>
+
+<p>Beats Solo3 Wireless, 40 saate kadar pil ömrüyle her gün kullanabileceğiniz mükemmel bir kulaklıktır. Fast Fuel ile 5 dakikalık şarjla 3 saat müzik dinleyebilirsiniz. Class 1 Bluetooth® kablosuz dinleme özgürlüğüyle, ödüllü Beats sesinin keyfini çıkarın. Kulak üzeri, yastıklı kulaklık uçlarını tüm gün rahat edeceğiniz şekilde kendinize göre ayarlayabilirsiniz.</p>
+
+
+
+<h3>Olması gerektiği gibi kablosuz</h3>
+
+<p>Siz hazırsanız, Solo3 Wireless da hazır. Kulaklığınızı açın ve iPhone’unuza yaklaştırın. Bu kadar basit. Kolayca kurulur ve Apple Watch, iPad ve Mac’inize anında bağlanır*. Class 1 Bluetooth teknolojisi sayesinde Solo3 Wireless, size kablosuz teknolojinin verimliliğiyle müzik dinleme imkanı sunar.</p>
+
+
+
+<h3>Müziği hissedin</h3>
+
+<p>Beats Solo3 Wireless kulaklığın kalbinde, ödüllü Beats ses kalitesi vardır. Bu kulaklık, netlik, aralık ve dengeyi en yüksek düzeye çıkaran ince ayarlı akustik özellikleriyle üstün bir çalma deneyimi sunar. Konforlu yastıklara sahip kulaklık uçları dışarıdaki sesleri engeller ve sizi içine alacak bir müzik dinleme deneyimi sunar. Böylece, müziği tam olarak duymanız gereken şekilde duyarsınız.</p>
+
+
+
+<h3>Tüm gün dinleyin</h3>
+
+<p>Beats Solo3 Wireless, Apple W1 çipin verimliliği sayesinde 40 saate kadar pil ömrü sağlar. Şarjı bittiğinde beklemek istemiyorsanız, Fast Fuel ile 5 dakikalık hızlı bir şarjla 3 saate kadar müzik dinleyebilirsiniz. Entegre kulak üstü kontrolleri ve hüzmeleme özellikli çift mikrofonu, hareket halindeyken gelen aramaları yanıtlamanızı, müzik çalmanızı ve Siri’yi etkinleştirmenizi sağlar.</p>
+
+<h3>Kişiselleştirilebilir konfor</h3>
+
+<p>Beats Solo3 Wireless, çarpıcı stili ve dinamik tasarımıyla klasik Beats çizgisini korur. Kulak üzeri, yastıklı kulaklık uçlarını tüm gün rahat edeceğiniz şekilde kendinize göre ayarlayabilirsiniz. Optimum konfor ve ses kalitesi düşünülerek tasarlandığı için kulağınıza doğal bir şekilde oturur. Dinamik kıvrımları ve döner kulaklık uçları bu kusursuz tasarımı tamamlar.</p>
+
+<p>*iCloud hesabı ve macOS Sierra, iOS 10 veya watchOS 3 gerekir. </p>
+					  
+					  
+			    </div>
+				  <div class="tab-pane fade" id="ozellik" role="tabpanel" aria-labelledby="ozellik-tab">
+				  
+				  <table class="table table-sm table-bordered table-hover table-striped">
+					<tbody>
+					<tr>
+					<th scope="row">Empedans (Ohm)	</th>
+					<td>16</td>
+					</tr>
+					<tr>
+					<th scope="row">Menşei</th>
+					<td><a href="#" rel="tag">Çin</a></td>
+					</tr>
+					<tr>
+					<th scope="row">Garanti</th>
+					<td><a href="#" rel="tag">24</a></td>
+					</tr>
+					<tr>
+					<th scope="row">Aksesuar Tipi</th>
+					<td><a href="#" rel="tag">Telefon Aksesuarı</a></td>
+					</tr>
+
+					</tbody>
+				  </table>
+				  
+				  
+			    </div>
+				  <div class="tab-pane fade" id="yorumlar" role="tabpanel" aria-labelledby="yorumlar-tab">
+
+				<div class="row">
+			  <div class="col-md-1 col-2">
+			  <div class="thumbnail">
+			  <img class="img-fluid user-photo" alt="" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+			  </div>
+			  </div>
+
+			  <div class="col-md-11 col-10">
+			  <div class="panel panel-default">
+			  <div class="panel-heading">
+			  <strong>Ali Çınaroğlu</strong> <span class="text-muted">5 gün önce yorumladı</span>
+			  </div>
+			  <div class="panel-body">
+				<p>Harika bir ürün herkese tavsiye ederim</p>
+			  </div>
+			  </div>
+			  </div>
+				</div>
+				
+			<div class="row">
+			  <div class="col-md-1 col-2">
+			  <div class="thumbnail">
+			  <img class="img-fluid user-photo" alt="" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+			  </div>
+			  </div>
+
+			  <div class="col-md-11 col-10">
+			  <div class="panel panel-default">
+			  <div class="panel-heading">
+			  <strong>Ali Çınaroğlu</strong> <span class="text-muted">5 gün önce yorumladı</span>
+			  </div>
+			  <div class="panel-body">
+				<p>Harika bir ürün herkese tavsiye ederim</p>
+			  </div>
+			  </div>
+			  </div>
+				</div>
+				  
+				  </div>
+				  <div class="tab-pane fade" id="odeme" role="tabpanel" aria-labelledby="odeme-tab">
+				  
+				 <p> Ödeme Seçenekleri</p>
+<p>Garanti Bonus 2+3 taksit kampanyasına Flexi Card’lar dahil değildir.</p>
+<p>CardFinans 2+4 taksit kampanyasına Enpara kredi kartları, Fix Card’lar ve ticari kartlar dahil değildir.</p>
+<p>Paraf ve Cardfinans kartlarında 100 TL altı işlemler 6 taksit değil, 2 taksit olarak yansıyacaktır.</p>
+				  
+			      <img src="img/kart-havale.jpg" width="230" height="63" alt=""/>
+				  
+				  <div class="clearfix"></div>
+				  
+					  
+					  
+				  </div>
+
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		
+		<div class="container urun-detay-benzer-urunler">
+			<h2 class="tab-baslik renkli-baslik">Benzer Ürünler</h2>
+			<div class="clearfix"></div>
+			<div class="row">
+		  <div class="col-md-4 col-lg-3">
+				
+				<div class="urun-kutu">
+			    <a href="urun-detay.html"><img src="img/urunler/urun-1.jpg" alt=""/></a>
+			  	<span class="urun-kutu-baslik"><a href="urun-detay.html">Samsung Cep Telefonu</a></span>
+				<div class="clearfix"></div>
+			  	<div class="urun-kutu-fiyat">567 TL</div>
+				<div class="urun-kutu-sepete-ekle"><a href="urun-detay.html" class="kirmizi-buton">Sepete Ekle</a></div>
+				<div class="clearfix"></div>
+			    </div>
+				
+		  </div>
+		 
+		<div class="col-md-4 col-lg-3">
+				<div class="urun-kutu">
+			    <a href="urun-detay.html"><img src="img/urunler/urun-2.jpg" alt=""/></a>
+			  	<span class="urun-kutu-baslik"><a href="urun-detay.html">Samsung Cep Telefonu</a></span>
+				<div class="clearfix"></div>
+			  	<div class="urun-kutu-fiyat"><del>2450 TL</del>567 TL</div>
+				<div class="urun-kutu-sepete-ekle"><a href="urun-detay.html" class="kirmizi-buton">Sepete Ekle</a></div>
+				<div class="clearfix"></div>
+			    </div>
+		  </div>
+				
+		<div class="col-md-4 col-lg-3">
+				<div class="urun-kutu">
+			    <a href="urun-detay.html"><img src="img/urunler/urun-3.jpg" alt=""/></a>
+			  	<span class="urun-kutu-baslik"><a href="urun-detay.html">Samsung Cep Telefonu</a></span>
+				<div class="clearfix"></div>
+			  	<div class="urun-kutu-fiyat">567 TL</div>
+				<div class="urun-kutu-sepete-ekle"><a href="urun-detay.html" class="kirmizi-buton">Sepete Ekle</a></div>
+				<div class="clearfix"></div>
+			    </div>
+		  </div>
+				
+		<div class="col-md-4 col-lg-3">
+				<div class="urun-kutu">
+			    <a href="urun-detay.html"><img src="img/urunler/urun-4.jpg" alt=""/></a>
+			  	<span class="urun-kutu-baslik"><a href="urun-detay.html">Samsung Cep Telefonu</a></span>
+				<div class="clearfix"></div>
+			  	<div class="urun-kutu-fiyat">567 TL</div>
+				<div class="urun-kutu-sepete-ekle"><a href="urun-detay.html" class="kirmizi-buton">Sepete Ekle</a></div>
+				<div class="clearfix"></div>
+			    </div>
+		  </div>
+				
+			
+		  </div>
+		
+		</div>
+	
+		
+		
+	</div>
+	
+</div>	
+
+	
+
+	
+	
+	
+	
+<div class="container-fluid footer-alani">
+
+	<div class="container">
+	
+	<div class="row">
+	
+		<div class="col-md-12 col-lg-5">
+		
+		<img src="img/klaus-logo-beyaz.png" alt="" class="footer-logo"/>
+		
+		<div class="clearfix"></div>
+		<span class="footer-hakkinda">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sem enim, porttitor sed sodales a, pulvinar ut nibh. Morbi cursus dignissim velit, consequat tristique ipsum rhoncus vel. Donec rhoncus, massa quis vestibulum accumsan
+		</span>	
+		<div class="clearfix"></div>
+		<span class="footer-adres"><i class="fas fa-map-marker-alt"></i> Terat orci mattis dui, in lacinia augue ipsum eget enim.</span>
+		<div class="clearfix"></div>
+		<span class="footer-telefon"><i class="fas fa-phone-volume"></i> <a href="tel:03123121212">0312 312 12 12</a></span>
+		<div class="clearfix"></div>
+		<span class="footer-eposta"><i class="fas fa-envelope"></i> <a href="mailto:alicinaroglu@gmail.com">alicinaroglu@gmail.com</a></span>
+		
+		</div>
+		<div class="col-md-4 col-lg-2">
+		
+			<h3>Kurumsal</h3>
+			
+			<ul class="footer-menu">
+				<li><a href="kurumsal.html">Hakkımızda</a></li>
+				<li><a href="kurumsal.html">Klaus Store Hakkında</a></li>
+				<li><a href="kurumsal.html">Yardım/Destek</a></li>
+				<li><a href="kurumsal.html">Uzmanından Teknoloji</a></li>
+				<li><a href="kurumsal.html">Sıkça Sorulan Sorular</a></li>
+				<li><a href="kurumsal.html">İletişim</a></li>
+			</ul>
+		
+		</div>
+	
+		<div class="col-md-4 col-lg-2">
+		
+			<h3>Sipariş</h3>
+			<ul class="footer-menu">
+				<li><a href="kurumsal.html">Sipariş Takibi</a></li>
+				<li><a href="kurumsal.html">Sipariş İade Şartları</a></li>
+				<li><a href="kurumsal.html">Ürün Garantisi</a></li>
+				<li><a href="kurumsal.html">Kargo/Teslimat</a></li>
+				<li><a href="kurumsal.html">Yardım/Destek</a></li>
+			</ul>
+		</div>
+		
+		<div class="col-md-4 col-lg-3">
+		
+			<h3>Üyelik</h3>
+			<ul class="footer-menu">
+				<li><a href="kurumsal.html">Üye Girişi</a></li>
+				<li><a href="kurumsal.html">Yeni Üyelik</a></li>
+				<li><a href="kurumsal.html">Şifremi Unuttum</a></li>
+				<li><a href="kurumsal.html">Kullanıcı Sözleşmesi</a></li>
+				<li><a href="kurumsal.html">Gizlilik Politikası</a></li>
+				<li><a href="kurumsal.html">Tüketici Hakları</a></li>
+				<li><a href="kurumsal.html">Mesafeli Satış Sözleşmesi</a></li>
+			</ul>
+		
+		</div>
+		
+	</div>
+	
+	</div>
+	
+</div>	
+	
+
+
+	<div class="container footer-alani-2">
+		<div class="row">
+		<div class="col-md-6 col-6 footer-alani-2-sol">Copyright &copy; 2018</div>
+		<div class="col-md-6 col-6 footer-alani-2-sag"><a href="#" target="_blank">Ali Çınaroğlu</a></div>
+		</div>
+	</div>
+	
+
+<a href="#sayfabasi" target="_blank" class="sayfa-basina-git"><i class="fas fa-angle-up"></i></a>
+	
+<script src="inc/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="inc/slider/js/swiper.min.js"></script>
+<script src="inc/drawer-master/src/js/drawer.js"></script>
+<script src="inc/iscroll/iscroll.min.js"></script>
+<script src="inc/scripts.js"></script>
+	
+	
+</body>
+
+</html>
